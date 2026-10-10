@@ -1,8 +1,0 @@
-﻿id,configuration,relation_macro_f1_pct,qces_macro_f1_pct,core_answer_accuracy_pct,overall_answer_accuracy_pct,core_action_accuracy_pct
-A0,Semantic retrieval only,,,61.81,54.89,24.0
-A2,Independent QCES,,41.48,65.97,65.22,24.0
-A3,Pairwise NLI only,57.47,,61.81,55.98,24.0
-A4,Explicit temporal rules only,68.88,,65.97,58.15,24.0
-A5,Full pairwise relation graph,90.79,,63.89,57.61,24.0
-A6,Relation graph + QCES propagation,,79.94,84.03,80.43,24.0
-A7,AraVISTA + action policy,,,84.03,80.43,96.0

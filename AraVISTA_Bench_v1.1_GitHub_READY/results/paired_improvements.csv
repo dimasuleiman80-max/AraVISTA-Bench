@@ -1,8 +1,0 @@
-﻿comparison,metric,difference_percentage_points,ci95_lower_pp,ci95_upper_pp
-Dense-E5 -> Dense-E5+AraVISTA,Core answer accuracy,22.22,14.79,31.62
-Dense-E5 -> Dense-E5+AraVISTA,Core action accuracy,72.0,62.81,80.38
-Dense-E5 -> Dense-E5+AraVISTA,Core evidence top-1 accuracy,7.14,-1.22,15.87
-BM25 -> BM25+AraVISTA,Core answer accuracy,25.69,17.32,35.94
-BM25 -> BM25+AraVISTA,Core action accuracy,56.5,45.92,67.0
-A5 -> A6,Core answer accuracy,20.14,12.6,29.17
-A2 -> A6,Core answer accuracy,18.06,10.79,27.34
