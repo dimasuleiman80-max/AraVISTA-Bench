@@ -1,0 +1,26 @@
+﻿parameter_group,parameter,value,description
+threshold,contradiction,0.55,NLI contradiction gate
+threshold,entailment,0.55,NLI entailment gate
+threshold,semantic_relation_gate,0.4,Pairwise relation gating
+threshold,conflict_support_gate,0.4,Conflict propagation gating
+threshold,generic_or_weak_semantic,0.2,QCES insufficiency cutoff
+threshold,historical_min_semantic,0.25,Minimum semantic support for HISTORICAL_SUPPORT
+weight,semantic,1.0,Reranking weight
+weight,state,0.85,Reranking weight
+weight,graph,0.25,Reranking weight
+state_bonus,ACTIVE_SUPPORT,1.0,
+state_bonus,HISTORICAL_SUPPORT,1.0,
+state_bonus,SUPERSEDED,-1.0,
+state_bonus,CO_TEMPORAL_CONFLICT,-0.8,
+state_bonus,INSUFFICIENT,-0.65,
+transition_rule,beta_SUPERSEDES,0.62,
+transition_rule,beta_SUPPORTS,0.6,
+transition_rule,lambda_transition,0.22,
+transition_rule,confidence_cap,0.97,
+state_confidence,positive_support_floor,0.55,
+state_confidence,relation_driven_floor,0.6,
+state_confidence,global_cap,0.99,
+temporal_fit,exact_or_in_range,1.0,
+temporal_fit,one_year_offset,0.65,
+temporal_fit,two_year_offset,0.35,
+temporal_fit,otherwise,0.0,

@@ -1,0 +1,31 @@
+{
+  "title": "AraVISTA-Bench v1.1: Evidence-State Reasoning Benchmark for Selective Arabic RAG",
+  "upload_type": "dataset",
+  "description": "A controlled Arabic benchmark for temporal evidence validity, directed evidence relations, query-conditioned evidence states, reranking, and selective actions in retrieval-augmented generation.",
+  "creators": [
+    {
+      "name": "Suleiman, Dima",
+      "affiliation": "The University of Jordan"
+    },
+    {
+      "name": "Obiedat, Ruba",
+      "affiliation": "The University of Jordan"
+    },
+    {
+      "name": "Al-Zain, Yazan",
+      "affiliation": "The University of Jordan"
+    }
+  ],
+  "version": "1.1",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Arabic NLP",
+    "retrieval-augmented generation",
+    "temporal reasoning",
+    "evidence validity",
+    "selective RAG",
+    "abstention",
+    "stale evidence"
+  ],
+  "notes": "License applies to original AraVISTA annotations, labels, metadata, and documentation. Third-party source content remains subject to the original rights holder's terms."
+}

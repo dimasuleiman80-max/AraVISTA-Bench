@@ -1,0 +1,28 @@
+# Public Release Checklist
+
+- [ ] Insert final `queries.csv`
+- [ ] Insert final `evidence.csv` or metadata-only evidence release
+- [ ] Insert final `qces_labels.csv`
+- [ ] Insert final `pairwise_relations.csv`
+- [ ] Insert final `splits.csv`
+- [ ] Insert action calibration records or a documented calibration summary
+- [ ] Insert relation calibration records or a documented calibration summary
+- [ ] Insert Dense-E5 frozen predictions
+- [ ] Insert BM25 frozen predictions
+- [ ] Insert evaluation scripts
+- [ ] Insert bootstrap evaluation script
+- [ ] Verify all IDs are stable and unique
+- [ ] Verify counts: 240 queries, 592 evidence passages, 960 QCES labels, 592 relation labels
+- [ ] Verify core split has 200 queries and calendar challenge has 40
+- [ ] Verify no pilot-chain leakage into `HELDOUT_NEW_CHAIN`
+- [ ] Verify all reported table values can be reproduced from released files
+- [ ] Remove credentials, local paths, API keys, personal notes, and hidden metadata
+- [ ] Review Arabic text encoding (UTF-8)
+- [ ] Review redistribution rights for every third-party evidence passage
+- [ ] Add source URLs and dates for all evidence
+- [ ] Add a clear AI-assisted construction disclosure
+- [ ] Add version number and release date
+- [ ] Create Zenodo record
+- [ ] Mint DOI
+- [ ] Update manuscript Data Availability Statement with DOI
+- [ ] Update MDPI submission metadata with repository name and DOI

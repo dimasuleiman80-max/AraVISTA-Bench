@@ -1,0 +1,51 @@
+{
+  "corpus_reference_time": "2026-08-30",
+  "retrieval": {
+    "dense_model": "intfloat/multilingual-e5-small",
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "dense_normalized_embeddings": true,
+    "score_normalization": "per-query min-max; all equal -> 0"
+  },
+  "nli_model": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "thresholds": {
+    "contradiction": 0.55,
+    "entailment": 0.55,
+    "semantic_relation_gate": 0.4,
+    "conflict_support_gate": 0.4,
+    "generic_or_weak_semantic": 0.2,
+    "historical_min_semantic": 0.25,
+    "historical_fit_min": 0.65
+  },
+  "reranking_weights": {
+    "semantic": 1.0,
+    "state": 0.85,
+    "graph": 0.25
+  },
+  "state_bonus": {
+    "ACTIVE_SUPPORT": 1.0,
+    "HISTORICAL_SUPPORT": 1.0,
+    "SUPERSEDED": -1.0,
+    "CO_TEMPORAL_CONFLICT": -0.8,
+    "INSUFFICIENT": -0.65
+  },
+  "transition_confidence": {
+    "beta_SUPERSEDES": 0.62,
+    "beta_SUPPORTS": 0.6,
+    "lambda_similarity": 0.22,
+    "cap": 0.97
+  },
+  "state_confidence": {
+    "positive_floor": 0.55,
+    "relation_driven_floor": 0.6,
+    "global_cap": 0.99,
+    "ambiguous_or_future": 0.95
+  },
+  "historical_fit": {
+    "exact_or_in_range": 1.0,
+    "one_year_offset": 0.65,
+    "two_year_offset": 0.35,
+    "otherwise": 0.0
+  },
+  "bootstrap_resamples": 10000
+}

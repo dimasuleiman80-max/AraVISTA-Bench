@@ -1,0 +1,7 @@
+﻿family,raw_query_instances,bootstrap_units,notes
+Temporal counterfactual,48,24,Two-query temporal twins
+Calendar equivalence,40,20,Two-query calendar-equivalent pairs
+Dialect equivalence,64,16,"Four variants per intent: MSA, Levantine, Egyptian, Gulf"
+Stale-evidence trap,32,32,One query per scenario
+Co-temporal conflict,24,24,One query per scenario
+Control / clarification / insufficient,32,32,One query per scenario
