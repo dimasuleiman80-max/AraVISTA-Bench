@@ -1,16 +1,18 @@
 cff-version: 1.2.0
-message: "If you use AraVISTA-Bench, please cite the accompanying article and this dataset."
-title: "AraVISTA-Bench v1.1"
+message: "If you use AraVISTA-Bench, please cite the dataset and the accompanying article."
+title: "AraVISTA-Bench v1.1: Evidence-State Reasoning Benchmark for Selective Arabic RAG"
 type: dataset
 version: "1.1"
 authors:
   - family-names: "Suleiman"
     given-names: "Dima"
+    affiliation: "The University of Jordan"
   - family-names: "Obiedat"
     given-names: "Ruba"
+    affiliation: "The University of Jordan"
   - family-names: "Al-Zain"
     given-names: "Yazan"
-repository-code: ""
-url: ""
-doi: ""
+    affiliation: "The University of Jordan"
+repository-code: "https://github.com/dimasuleiman80-max/AraVISTA-Bench"
+url: "https://github.com/dimasuleiman80-max/AraVISTA-Bench"
 license: "CC-BY-4.0"

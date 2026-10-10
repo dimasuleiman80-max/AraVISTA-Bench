@@ -1,1 +1,593 @@
-﻿source_evidence_id,target_evidence_id,relation_label,label_source,notes
+﻿relation_id,scenario_id,source_evidence_id,target_evidence_id,gold_relation,gold_rationale
+TC01-R1,TC01,TC01-E3,TC01-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC01-R2,TC01,TC01-E3,TC01-E2,SUPPORTS,The transition statement supports the later state.
+TC01-R3,TC01,TC01-E4,TC01-E2,NONE,Generic context does not entail the later state.
+TC01-R4,TC01,TC01-E1,TC01-E4,NONE,The historical state does not entail generic context.
+TC02-R1,TC02,TC02-E3,TC02-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC02-R2,TC02,TC02-E3,TC02-E2,SUPPORTS,The transition statement supports the later state.
+TC02-R3,TC02,TC02-E4,TC02-E2,NONE,Generic context does not entail the later state.
+TC02-R4,TC02,TC02-E1,TC02-E4,NONE,The historical state does not entail generic context.
+TC03-R1,TC03,TC03-E3,TC03-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC03-R2,TC03,TC03-E3,TC03-E2,SUPPORTS,The transition statement supports the later state.
+TC03-R3,TC03,TC03-E4,TC03-E2,NONE,Generic context does not entail the later state.
+TC03-R4,TC03,TC03-E1,TC03-E4,NONE,The historical state does not entail generic context.
+TC04-R1,TC04,TC04-E3,TC04-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC04-R2,TC04,TC04-E3,TC04-E2,SUPPORTS,The transition statement supports the later state.
+TC04-R3,TC04,TC04-E4,TC04-E2,NONE,Generic context does not entail the later state.
+TC04-R4,TC04,TC04-E1,TC04-E4,NONE,The historical state does not entail generic context.
+TC05-R1,TC05,TC05-E3,TC05-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC05-R2,TC05,TC05-E3,TC05-E2,SUPPORTS,The transition statement supports the later state.
+TC05-R3,TC05,TC05-E4,TC05-E2,NONE,Generic context does not entail the later state.
+TC05-R4,TC05,TC05-E1,TC05-E4,NONE,The historical state does not entail generic context.
+TC06-R1,TC06,TC06-E3,TC06-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC06-R2,TC06,TC06-E3,TC06-E2,SUPPORTS,The transition statement supports the later state.
+TC06-R3,TC06,TC06-E4,TC06-E2,NONE,Generic context does not entail the later state.
+TC06-R4,TC06,TC06-E1,TC06-E4,NONE,The historical state does not entail generic context.
+TC07-R1,TC07,TC07-E3,TC07-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC07-R2,TC07,TC07-E3,TC07-E2,SUPPORTS,The transition statement supports the later state.
+TC07-R3,TC07,TC07-E4,TC07-E2,NONE,Generic context does not entail the later state.
+TC07-R4,TC07,TC07-E1,TC07-E4,NONE,The historical state does not entail generic context.
+TC08-R1,TC08,TC08-E3,TC08-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC08-R2,TC08,TC08-E3,TC08-E2,SUPPORTS,The transition statement supports the later state.
+TC08-R3,TC08,TC08-E4,TC08-E2,NONE,Generic context does not entail the later state.
+TC08-R4,TC08,TC08-E1,TC08-E4,NONE,The historical state does not entail generic context.
+TC09-R1,TC09,TC09-E3,TC09-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC09-R2,TC09,TC09-E3,TC09-E2,SUPPORTS,The transition statement supports the later state.
+TC09-R3,TC09,TC09-E4,TC09-E2,NONE,Generic context does not entail the later state.
+TC09-R4,TC09,TC09-E1,TC09-E4,NONE,The historical state does not entail generic context.
+TC10-R1,TC10,TC10-E3,TC10-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC10-R2,TC10,TC10-E3,TC10-E2,SUPPORTS,The transition statement supports the later state.
+TC10-R3,TC10,TC10-E4,TC10-E2,NONE,Generic context does not entail the later state.
+TC10-R4,TC10,TC10-E1,TC10-E4,NONE,The historical state does not entail generic context.
+TC11-R1,TC11,TC11-E3,TC11-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC11-R2,TC11,TC11-E3,TC11-E2,SUPPORTS,The transition statement supports the later state.
+TC11-R3,TC11,TC11-E4,TC11-E2,NONE,Generic context does not entail the later state.
+TC11-R4,TC11,TC11-E1,TC11-E4,NONE,The historical state does not entail generic context.
+TC12-R1,TC12,TC12-E3,TC12-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC12-R2,TC12,TC12-E3,TC12-E2,SUPPORTS,The transition statement supports the later state.
+TC12-R3,TC12,TC12-E4,TC12-E2,NONE,Generic context does not entail the later state.
+TC12-R4,TC12,TC12-E1,TC12-E4,NONE,The historical state does not entail generic context.
+TC13-R1,TC13,TC13-E3,TC13-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC13-R2,TC13,TC13-E3,TC13-E2,SUPPORTS,The transition statement supports the later state.
+TC13-R3,TC13,TC13-E4,TC13-E2,NONE,Generic context does not entail the later state.
+TC13-R4,TC13,TC13-E1,TC13-E4,NONE,The historical state does not entail generic context.
+TC14-R1,TC14,TC14-E3,TC14-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC14-R2,TC14,TC14-E3,TC14-E2,SUPPORTS,The transition statement supports the later state.
+TC14-R3,TC14,TC14-E4,TC14-E2,NONE,Generic context does not entail the later state.
+TC14-R4,TC14,TC14-E1,TC14-E4,NONE,The historical state does not entail generic context.
+TC15-R1,TC15,TC15-E3,TC15-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC15-R2,TC15,TC15-E3,TC15-E2,SUPPORTS,The transition statement supports the later state.
+TC15-R3,TC15,TC15-E4,TC15-E2,NONE,Generic context does not entail the later state.
+TC15-R4,TC15,TC15-E1,TC15-E4,NONE,The historical state does not entail generic context.
+TC16-R1,TC16,TC16-E3,TC16-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC16-R2,TC16,TC16-E3,TC16-E2,SUPPORTS,The transition statement supports the later state.
+TC16-R3,TC16,TC16-E4,TC16-E2,NONE,Generic context does not entail the later state.
+TC16-R4,TC16,TC16-E1,TC16-E4,NONE,The historical state does not entail generic context.
+TC17-R1,TC17,TC17-E3,TC17-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC17-R2,TC17,TC17-E3,TC17-E2,SUPPORTS,The transition statement supports the later state.
+TC17-R3,TC17,TC17-E4,TC17-E2,NONE,Generic context does not entail the later state.
+TC17-R4,TC17,TC17-E1,TC17-E4,NONE,The historical state does not entail generic context.
+TC18-R1,TC18,TC18-E3,TC18-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC18-R2,TC18,TC18-E3,TC18-E2,SUPPORTS,The transition statement supports the later state.
+TC18-R3,TC18,TC18-E4,TC18-E2,NONE,Generic context does not entail the later state.
+TC18-R4,TC18,TC18-E1,TC18-E4,NONE,The historical state does not entail generic context.
+TC19-R1,TC19,TC19-E3,TC19-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC19-R2,TC19,TC19-E3,TC19-E2,SUPPORTS,The transition statement supports the later state.
+TC19-R3,TC19,TC19-E4,TC19-E2,NONE,Generic context does not entail the later state.
+TC19-R4,TC19,TC19-E1,TC19-E4,NONE,The historical state does not entail generic context.
+TC20-R1,TC20,TC20-E3,TC20-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC20-R2,TC20,TC20-E3,TC20-E2,SUPPORTS,The transition statement supports the later state.
+TC20-R3,TC20,TC20-E4,TC20-E2,NONE,Generic context does not entail the later state.
+TC20-R4,TC20,TC20-E1,TC20-E4,NONE,The historical state does not entail generic context.
+TC21-R1,TC21,TC21-E3,TC21-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC21-R2,TC21,TC21-E3,TC21-E2,SUPPORTS,The transition statement supports the later state.
+TC21-R3,TC21,TC21-E4,TC21-E2,NONE,Generic context does not entail the later state.
+TC21-R4,TC21,TC21-E1,TC21-E4,NONE,The historical state does not entail generic context.
+TC22-R1,TC22,TC22-E3,TC22-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC22-R2,TC22,TC22-E3,TC22-E2,SUPPORTS,The transition statement supports the later state.
+TC22-R3,TC22,TC22-E4,TC22-E2,NONE,Generic context does not entail the later state.
+TC22-R4,TC22,TC22-E1,TC22-E4,NONE,The historical state does not entail generic context.
+TC23-R1,TC23,TC23-E3,TC23-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC23-R2,TC23,TC23-E3,TC23-E2,SUPPORTS,The transition statement supports the later state.
+TC23-R3,TC23,TC23-E4,TC23-E2,NONE,Generic context does not entail the later state.
+TC23-R4,TC23,TC23-E1,TC23-E4,NONE,The historical state does not entail generic context.
+TC24-R1,TC24,TC24-E3,TC24-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+TC24-R2,TC24,TC24-E3,TC24-E2,SUPPORTS,The transition statement supports the later state.
+TC24-R3,TC24,TC24-E4,TC24-E2,NONE,Generic context does not entail the later state.
+TC24-R4,TC24,TC24-E1,TC24-E4,NONE,The historical state does not entail generic context.
+CAL01-R1,CAL01,CAL01-E3,CAL01-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL01-R2,CAL01,CAL01-E1,CAL01-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL01-R3,CAL01,CAL01-E4,CAL01-E1,NONE,Generic context does not entail the event.
+CAL01-R4,CAL01,CAL01-E2,CAL01-E4,NONE,Prior state does not entail generic context.
+CAL02-R1,CAL02,CAL02-E3,CAL02-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL02-R2,CAL02,CAL02-E1,CAL02-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL02-R3,CAL02,CAL02-E4,CAL02-E1,NONE,Generic context does not entail the event.
+CAL02-R4,CAL02,CAL02-E2,CAL02-E4,NONE,Prior state does not entail generic context.
+CAL03-R1,CAL03,CAL03-E3,CAL03-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL03-R2,CAL03,CAL03-E1,CAL03-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL03-R3,CAL03,CAL03-E4,CAL03-E1,NONE,Generic context does not entail the event.
+CAL03-R4,CAL03,CAL03-E2,CAL03-E4,NONE,Prior state does not entail generic context.
+CAL04-R1,CAL04,CAL04-E3,CAL04-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL04-R2,CAL04,CAL04-E1,CAL04-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL04-R3,CAL04,CAL04-E4,CAL04-E1,NONE,Generic context does not entail the event.
+CAL04-R4,CAL04,CAL04-E2,CAL04-E4,NONE,Prior state does not entail generic context.
+CAL05-R1,CAL05,CAL05-E3,CAL05-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL05-R2,CAL05,CAL05-E1,CAL05-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL05-R3,CAL05,CAL05-E4,CAL05-E1,NONE,Generic context does not entail the event.
+CAL05-R4,CAL05,CAL05-E2,CAL05-E4,NONE,Prior state does not entail generic context.
+CAL06-R1,CAL06,CAL06-E3,CAL06-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL06-R2,CAL06,CAL06-E1,CAL06-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL06-R3,CAL06,CAL06-E4,CAL06-E1,NONE,Generic context does not entail the event.
+CAL06-R4,CAL06,CAL06-E2,CAL06-E4,NONE,Prior state does not entail generic context.
+CAL07-R1,CAL07,CAL07-E3,CAL07-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL07-R2,CAL07,CAL07-E1,CAL07-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL07-R3,CAL07,CAL07-E4,CAL07-E1,NONE,Generic context does not entail the event.
+CAL07-R4,CAL07,CAL07-E2,CAL07-E4,NONE,Prior state does not entail generic context.
+CAL08-R1,CAL08,CAL08-E3,CAL08-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL08-R2,CAL08,CAL08-E1,CAL08-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL08-R3,CAL08,CAL08-E4,CAL08-E1,NONE,Generic context does not entail the event.
+CAL08-R4,CAL08,CAL08-E2,CAL08-E4,NONE,Prior state does not entail generic context.
+CAL09-R1,CAL09,CAL09-E3,CAL09-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL09-R2,CAL09,CAL09-E1,CAL09-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL09-R3,CAL09,CAL09-E4,CAL09-E1,NONE,Generic context does not entail the event.
+CAL09-R4,CAL09,CAL09-E2,CAL09-E4,NONE,Prior state does not entail generic context.
+CAL10-R1,CAL10,CAL10-E3,CAL10-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL10-R2,CAL10,CAL10-E1,CAL10-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL10-R3,CAL10,CAL10-E4,CAL10-E1,NONE,Generic context does not entail the event.
+CAL10-R4,CAL10,CAL10-E2,CAL10-E4,NONE,Prior state does not entail generic context.
+CAL11-R1,CAL11,CAL11-E3,CAL11-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL11-R2,CAL11,CAL11-E1,CAL11-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL11-R3,CAL11,CAL11-E4,CAL11-E1,NONE,Generic context does not entail the event.
+CAL11-R4,CAL11,CAL11-E2,CAL11-E4,NONE,Prior state does not entail generic context.
+CAL12-R1,CAL12,CAL12-E3,CAL12-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL12-R2,CAL12,CAL12-E1,CAL12-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL12-R3,CAL12,CAL12-E4,CAL12-E1,NONE,Generic context does not entail the event.
+CAL12-R4,CAL12,CAL12-E2,CAL12-E4,NONE,Prior state does not entail generic context.
+CAL13-R1,CAL13,CAL13-E3,CAL13-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL13-R2,CAL13,CAL13-E1,CAL13-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL13-R3,CAL13,CAL13-E4,CAL13-E1,NONE,Generic context does not entail the event.
+CAL13-R4,CAL13,CAL13-E2,CAL13-E4,NONE,Prior state does not entail generic context.
+CAL14-R1,CAL14,CAL14-E3,CAL14-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL14-R2,CAL14,CAL14-E1,CAL14-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL14-R3,CAL14,CAL14-E4,CAL14-E1,NONE,Generic context does not entail the event.
+CAL14-R4,CAL14,CAL14-E2,CAL14-E4,NONE,Prior state does not entail generic context.
+CAL15-R1,CAL15,CAL15-E3,CAL15-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL15-R2,CAL15,CAL15-E1,CAL15-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL15-R3,CAL15,CAL15-E4,CAL15-E1,NONE,Generic context does not entail the event.
+CAL15-R4,CAL15,CAL15-E2,CAL15-E4,NONE,Prior state does not entail generic context.
+CAL16-R1,CAL16,CAL16-E3,CAL16-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL16-R2,CAL16,CAL16-E1,CAL16-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL16-R3,CAL16,CAL16-E4,CAL16-E1,NONE,Generic context does not entail the event.
+CAL16-R4,CAL16,CAL16-E2,CAL16-E4,NONE,Prior state does not entail generic context.
+CAL17-R1,CAL17,CAL17-E3,CAL17-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL17-R2,CAL17,CAL17-E1,CAL17-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL17-R3,CAL17,CAL17-E4,CAL17-E1,NONE,Generic context does not entail the event.
+CAL17-R4,CAL17,CAL17-E2,CAL17-E4,NONE,Prior state does not entail generic context.
+CAL18-R1,CAL18,CAL18-E3,CAL18-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL18-R2,CAL18,CAL18-E1,CAL18-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL18-R3,CAL18,CAL18-E4,CAL18-E1,NONE,Generic context does not entail the event.
+CAL18-R4,CAL18,CAL18-E2,CAL18-E4,NONE,Prior state does not entail generic context.
+CAL19-R1,CAL19,CAL19-E3,CAL19-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL19-R2,CAL19,CAL19-E1,CAL19-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL19-R3,CAL19,CAL19-E4,CAL19-E1,NONE,Generic context does not entail the event.
+CAL19-R4,CAL19,CAL19-E2,CAL19-E4,NONE,Prior state does not entail generic context.
+CAL20-R1,CAL20,CAL20-E3,CAL20-E1,SUPPORTS,The equivalent-date context supports the official event passage.
+CAL20-R2,CAL20,CAL20-E1,CAL20-E2,NONE,Round-3 aligned: a dated event/current-state record without an explicit predecessor-to-successor replacement is not sufficient for pairwise SUPERSEDES.
+CAL20-R3,CAL20,CAL20-E4,CAL20-E1,NONE,Generic context does not entail the event.
+CAL20-R4,CAL20,CAL20-E2,CAL20-E4,NONE,Prior state does not entail generic context.
+DIA01-R1,DIA01,DIA01-E3,DIA01-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA01-R2,DIA01,DIA01-E3,DIA01-E2,SUPPORTS,Transition passage supports the current state.
+DIA01-R3,DIA01,DIA01-E4,DIA01-E2,NONE,Generic context is not direct support.
+DIA01-R4,DIA01,DIA01-E1,DIA01-E4,NONE,Prior state does not entail generic context.
+DIA02-R1,DIA02,DIA02-E3,DIA02-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA02-R2,DIA02,DIA02-E3,DIA02-E2,SUPPORTS,Transition passage supports the current state.
+DIA02-R3,DIA02,DIA02-E4,DIA02-E2,NONE,Generic context is not direct support.
+DIA02-R4,DIA02,DIA02-E1,DIA02-E4,NONE,Prior state does not entail generic context.
+DIA03-R1,DIA03,DIA03-E3,DIA03-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA03-R2,DIA03,DIA03-E3,DIA03-E2,SUPPORTS,Transition passage supports the current state.
+DIA03-R3,DIA03,DIA03-E4,DIA03-E2,NONE,Generic context is not direct support.
+DIA03-R4,DIA03,DIA03-E1,DIA03-E4,NONE,Prior state does not entail generic context.
+DIA04-R1,DIA04,DIA04-E3,DIA04-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA04-R2,DIA04,DIA04-E3,DIA04-E2,SUPPORTS,Transition passage supports the current state.
+DIA04-R3,DIA04,DIA04-E4,DIA04-E2,NONE,Generic context is not direct support.
+DIA04-R4,DIA04,DIA04-E1,DIA04-E4,NONE,Prior state does not entail generic context.
+DIA05-R1,DIA05,DIA05-E3,DIA05-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA05-R2,DIA05,DIA05-E3,DIA05-E2,SUPPORTS,Transition passage supports the current state.
+DIA05-R3,DIA05,DIA05-E4,DIA05-E2,NONE,Generic context is not direct support.
+DIA05-R4,DIA05,DIA05-E1,DIA05-E4,NONE,Prior state does not entail generic context.
+DIA06-R1,DIA06,DIA06-E3,DIA06-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA06-R2,DIA06,DIA06-E3,DIA06-E2,SUPPORTS,Transition passage supports the current state.
+DIA06-R3,DIA06,DIA06-E4,DIA06-E2,NONE,Generic context is not direct support.
+DIA06-R4,DIA06,DIA06-E1,DIA06-E4,NONE,Prior state does not entail generic context.
+DIA07-R1,DIA07,DIA07-E3,DIA07-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA07-R2,DIA07,DIA07-E3,DIA07-E2,SUPPORTS,Transition passage supports the current state.
+DIA07-R3,DIA07,DIA07-E4,DIA07-E2,NONE,Generic context is not direct support.
+DIA07-R4,DIA07,DIA07-E1,DIA07-E4,NONE,Prior state does not entail generic context.
+DIA08-R1,DIA08,DIA08-E3,DIA08-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA08-R2,DIA08,DIA08-E3,DIA08-E2,SUPPORTS,Transition passage supports the current state.
+DIA08-R3,DIA08,DIA08-E4,DIA08-E2,NONE,Generic context is not direct support.
+DIA08-R4,DIA08,DIA08-E1,DIA08-E4,NONE,Prior state does not entail generic context.
+DIA09-R1,DIA09,DIA09-E3,DIA09-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA09-R2,DIA09,DIA09-E3,DIA09-E2,SUPPORTS,Transition passage supports the current state.
+DIA09-R3,DIA09,DIA09-E4,DIA09-E2,NONE,Generic context is not direct support.
+DIA09-R4,DIA09,DIA09-E1,DIA09-E4,NONE,Prior state does not entail generic context.
+DIA10-R1,DIA10,DIA10-E3,DIA10-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA10-R2,DIA10,DIA10-E3,DIA10-E2,SUPPORTS,Transition passage supports the current state.
+DIA10-R3,DIA10,DIA10-E4,DIA10-E2,NONE,Generic context is not direct support.
+DIA10-R4,DIA10,DIA10-E1,DIA10-E4,NONE,Prior state does not entail generic context.
+DIA11-R1,DIA11,DIA11-E3,DIA11-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA11-R2,DIA11,DIA11-E3,DIA11-E2,SUPPORTS,Transition passage supports the current state.
+DIA11-R3,DIA11,DIA11-E4,DIA11-E2,NONE,Generic context is not direct support.
+DIA11-R4,DIA11,DIA11-E1,DIA11-E4,NONE,Prior state does not entail generic context.
+DIA12-R1,DIA12,DIA12-E3,DIA12-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA12-R2,DIA12,DIA12-E3,DIA12-E2,SUPPORTS,Transition passage supports the current state.
+DIA12-R3,DIA12,DIA12-E4,DIA12-E2,NONE,Generic context is not direct support.
+DIA12-R4,DIA12,DIA12-E1,DIA12-E4,NONE,Prior state does not entail generic context.
+DIA13-R1,DIA13,DIA13-E3,DIA13-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA13-R2,DIA13,DIA13-E3,DIA13-E2,SUPPORTS,Transition passage supports the current state.
+DIA13-R3,DIA13,DIA13-E4,DIA13-E2,NONE,Generic context is not direct support.
+DIA13-R4,DIA13,DIA13-E1,DIA13-E4,NONE,Prior state does not entail generic context.
+DIA14-R1,DIA14,DIA14-E3,DIA14-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA14-R2,DIA14,DIA14-E3,DIA14-E2,SUPPORTS,Transition passage supports the current state.
+DIA14-R3,DIA14,DIA14-E4,DIA14-E2,NONE,Generic context is not direct support.
+DIA14-R4,DIA14,DIA14-E1,DIA14-E4,NONE,Prior state does not entail generic context.
+DIA15-R1,DIA15,DIA15-E3,DIA15-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA15-R2,DIA15,DIA15-E3,DIA15-E2,SUPPORTS,Transition passage supports the current state.
+DIA15-R3,DIA15,DIA15-E4,DIA15-E2,NONE,Generic context is not direct support.
+DIA15-R4,DIA15,DIA15-E1,DIA15-E4,NONE,Prior state does not entail generic context.
+DIA16-R1,DIA16,DIA16-E3,DIA16-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+DIA16-R2,DIA16,DIA16-E3,DIA16-E2,SUPPORTS,Transition passage supports the current state.
+DIA16-R3,DIA16,DIA16-E4,DIA16-E2,NONE,Generic context is not direct support.
+DIA16-R4,DIA16,DIA16-E1,DIA16-E4,NONE,Prior state does not entail generic context.
+ST01-R1,ST01,ST01-E2,ST01-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST01-R2,ST01,ST01-E3,ST01-E2,SUPPORTS,Transition evidence supports current state.
+ST01-R3,ST01,ST01-E4,ST01-E2,NONE,Generic context does not entail current answer.
+ST01-R4,ST01,ST01-E3,ST01-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST02-R1,ST02,ST02-E2,ST02-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST02-R2,ST02,ST02-E3,ST02-E2,SUPPORTS,Transition evidence supports current state.
+ST02-R3,ST02,ST02-E4,ST02-E2,NONE,Generic context does not entail current answer.
+ST02-R4,ST02,ST02-E3,ST02-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST03-R1,ST03,ST03-E2,ST03-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST03-R2,ST03,ST03-E3,ST03-E2,SUPPORTS,Transition evidence supports current state.
+ST03-R3,ST03,ST03-E4,ST03-E2,NONE,Generic context does not entail current answer.
+ST03-R4,ST03,ST03-E3,ST03-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST04-R1,ST04,ST04-E2,ST04-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST04-R2,ST04,ST04-E3,ST04-E2,SUPPORTS,Transition evidence supports current state.
+ST04-R3,ST04,ST04-E4,ST04-E2,NONE,Generic context does not entail current answer.
+ST04-R4,ST04,ST04-E3,ST04-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST05-R1,ST05,ST05-E2,ST05-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST05-R2,ST05,ST05-E3,ST05-E2,SUPPORTS,Transition evidence supports current state.
+ST05-R3,ST05,ST05-E4,ST05-E2,NONE,Generic context does not entail current answer.
+ST05-R4,ST05,ST05-E3,ST05-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST06-R1,ST06,ST06-E2,ST06-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST06-R2,ST06,ST06-E3,ST06-E2,SUPPORTS,Transition evidence supports current state.
+ST06-R3,ST06,ST06-E4,ST06-E2,NONE,Generic context does not entail current answer.
+ST06-R4,ST06,ST06-E3,ST06-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST07-R1,ST07,ST07-E2,ST07-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST07-R2,ST07,ST07-E3,ST07-E2,SUPPORTS,Transition evidence supports current state.
+ST07-R3,ST07,ST07-E4,ST07-E2,NONE,Generic context does not entail current answer.
+ST07-R4,ST07,ST07-E3,ST07-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST08-R1,ST08,ST08-E2,ST08-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST08-R2,ST08,ST08-E3,ST08-E2,SUPPORTS,Transition evidence supports current state.
+ST08-R3,ST08,ST08-E4,ST08-E2,NONE,Generic context does not entail current answer.
+ST08-R4,ST08,ST08-E3,ST08-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST09-R1,ST09,ST09-E2,ST09-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST09-R2,ST09,ST09-E3,ST09-E2,SUPPORTS,Transition evidence supports current state.
+ST09-R3,ST09,ST09-E4,ST09-E2,NONE,Generic context does not entail current answer.
+ST09-R4,ST09,ST09-E3,ST09-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST10-R1,ST10,ST10-E2,ST10-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST10-R2,ST10,ST10-E3,ST10-E2,SUPPORTS,Transition evidence supports current state.
+ST10-R3,ST10,ST10-E4,ST10-E2,NONE,Generic context does not entail current answer.
+ST10-R4,ST10,ST10-E3,ST10-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST11-R1,ST11,ST11-E2,ST11-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST11-R2,ST11,ST11-E3,ST11-E2,SUPPORTS,Transition evidence supports current state.
+ST11-R3,ST11,ST11-E4,ST11-E2,NONE,Generic context does not entail current answer.
+ST11-R4,ST11,ST11-E3,ST11-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST12-R1,ST12,ST12-E2,ST12-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST12-R2,ST12,ST12-E3,ST12-E2,SUPPORTS,Transition evidence supports current state.
+ST12-R3,ST12,ST12-E4,ST12-E2,NONE,Generic context does not entail current answer.
+ST12-R4,ST12,ST12-E3,ST12-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST13-R1,ST13,ST13-E2,ST13-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST13-R2,ST13,ST13-E3,ST13-E2,SUPPORTS,Transition evidence supports current state.
+ST13-R3,ST13,ST13-E4,ST13-E2,NONE,Generic context does not entail current answer.
+ST13-R4,ST13,ST13-E3,ST13-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST14-R1,ST14,ST14-E2,ST14-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST14-R2,ST14,ST14-E3,ST14-E2,SUPPORTS,Transition evidence supports current state.
+ST14-R3,ST14,ST14-E4,ST14-E2,NONE,Generic context does not entail current answer.
+ST14-R4,ST14,ST14-E3,ST14-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST15-R1,ST15,ST15-E2,ST15-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST15-R2,ST15,ST15-E3,ST15-E2,SUPPORTS,Transition evidence supports current state.
+ST15-R3,ST15,ST15-E4,ST15-E2,NONE,Generic context does not entail current answer.
+ST15-R4,ST15,ST15-E3,ST15-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST16-R1,ST16,ST16-E2,ST16-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST16-R2,ST16,ST16-E3,ST16-E2,SUPPORTS,Transition evidence supports current state.
+ST16-R3,ST16,ST16-E4,ST16-E2,NONE,Generic context does not entail current answer.
+ST16-R4,ST16,ST16-E3,ST16-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST17-R1,ST17,ST17-E2,ST17-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST17-R2,ST17,ST17-E3,ST17-E2,SUPPORTS,Transition evidence supports current state.
+ST17-R3,ST17,ST17-E4,ST17-E2,NONE,Generic context does not entail current answer.
+ST17-R4,ST17,ST17-E3,ST17-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST18-R1,ST18,ST18-E2,ST18-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST18-R2,ST18,ST18-E3,ST18-E2,SUPPORTS,Transition evidence supports current state.
+ST18-R3,ST18,ST18-E4,ST18-E2,NONE,Generic context does not entail current answer.
+ST18-R4,ST18,ST18-E3,ST18-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST19-R1,ST19,ST19-E2,ST19-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST19-R2,ST19,ST19-E3,ST19-E2,SUPPORTS,Transition evidence supports current state.
+ST19-R3,ST19,ST19-E4,ST19-E2,NONE,Generic context does not entail current answer.
+ST19-R4,ST19,ST19-E3,ST19-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST20-R1,ST20,ST20-E2,ST20-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST20-R2,ST20,ST20-E3,ST20-E2,SUPPORTS,Transition evidence supports current state.
+ST20-R3,ST20,ST20-E4,ST20-E2,NONE,Generic context does not entail current answer.
+ST20-R4,ST20,ST20-E3,ST20-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST21-R1,ST21,ST21-E2,ST21-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST21-R2,ST21,ST21-E3,ST21-E2,SUPPORTS,Transition evidence supports current state.
+ST21-R3,ST21,ST21-E4,ST21-E2,NONE,Generic context does not entail current answer.
+ST21-R4,ST21,ST21-E3,ST21-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST22-R1,ST22,ST22-E2,ST22-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST22-R2,ST22,ST22-E3,ST22-E2,SUPPORTS,Transition evidence supports current state.
+ST22-R3,ST22,ST22-E4,ST22-E2,NONE,Generic context does not entail current answer.
+ST22-R4,ST22,ST22-E3,ST22-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST23-R1,ST23,ST23-E2,ST23-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST23-R2,ST23,ST23-E3,ST23-E2,SUPPORTS,Transition evidence supports current state.
+ST23-R3,ST23,ST23-E4,ST23-E2,NONE,Generic context does not entail current answer.
+ST23-R4,ST23,ST23-E3,ST23-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST24-R1,ST24,ST24-E2,ST24-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST24-R2,ST24,ST24-E3,ST24-E2,SUPPORTS,Transition evidence supports current state.
+ST24-R3,ST24,ST24-E4,ST24-E2,NONE,Generic context does not entail current answer.
+ST24-R4,ST24,ST24-E3,ST24-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST25-R1,ST25,ST25-E2,ST25-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST25-R2,ST25,ST25-E3,ST25-E2,SUPPORTS,Transition evidence supports current state.
+ST25-R3,ST25,ST25-E4,ST25-E2,NONE,Generic context does not entail current answer.
+ST25-R4,ST25,ST25-E3,ST25-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST26-R1,ST26,ST26-E2,ST26-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST26-R2,ST26,ST26-E3,ST26-E2,SUPPORTS,Transition evidence supports current state.
+ST26-R3,ST26,ST26-E4,ST26-E2,NONE,Generic context does not entail current answer.
+ST26-R4,ST26,ST26-E3,ST26-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST27-R1,ST27,ST27-E2,ST27-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST27-R2,ST27,ST27-E3,ST27-E2,SUPPORTS,Transition evidence supports current state.
+ST27-R3,ST27,ST27-E4,ST27-E2,NONE,Generic context does not entail current answer.
+ST27-R4,ST27,ST27-E3,ST27-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST28-R1,ST28,ST28-E2,ST28-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST28-R2,ST28,ST28-E3,ST28-E2,SUPPORTS,Transition evidence supports current state.
+ST28-R3,ST28,ST28-E4,ST28-E2,NONE,Generic context does not entail current answer.
+ST28-R4,ST28,ST28-E3,ST28-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST29-R1,ST29,ST29-E2,ST29-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST29-R2,ST29,ST29-E3,ST29-E2,SUPPORTS,Transition evidence supports current state.
+ST29-R3,ST29,ST29-E4,ST29-E2,NONE,Generic context does not entail current answer.
+ST29-R4,ST29,ST29-E3,ST29-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST30-R1,ST30,ST30-E2,ST30-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST30-R2,ST30,ST30-E3,ST30-E2,SUPPORTS,Transition evidence supports current state.
+ST30-R3,ST30,ST30-E4,ST30-E2,NONE,Generic context does not entail current answer.
+ST30-R4,ST30,ST30-E3,ST30-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST31-R1,ST31,ST31-E2,ST31-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST31-R2,ST31,ST31-E3,ST31-E2,SUPPORTS,Transition evidence supports current state.
+ST31-R3,ST31,ST31-E4,ST31-E2,NONE,Generic context does not entail current answer.
+ST31-R4,ST31,ST31-E3,ST31-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+ST32-R1,ST32,ST32-E2,ST32-E1,CONTRADICTS,"Both passages assert incompatible values for the same slot at the same current reference time. The stale passage remains QCES=SUPERSEDED, but the pairwise textual relation is CONTRADICTS."
+ST32-R2,ST32,ST32-E3,ST32-E2,SUPPORTS,Transition evidence supports current state.
+ST32-R3,ST32,ST32-E4,ST32-E2,NONE,Generic context does not entail current answer.
+ST32-R4,ST32,ST32-E3,ST32-E1,SUPERSEDES,Round-3 aligned: the explicit transition supersedes the stale predecessor claim; the stale and active current claims remain pairwise CONTRADICTS.
+CON01-R1,CON01,CON01-E1,CON01-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON01-R2,CON01,CON01-E2,CON01-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON01-R3,CON01,CON01-E3,CON01-E1,NONE,Generic context does not entail the specific claim.
+CON01-R4,CON01,CON01-E4,CON01-E2,NONE,Instructional context does not entail the conflicting claim.
+CON02-R1,CON02,CON02-E1,CON02-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON02-R2,CON02,CON02-E2,CON02-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON02-R3,CON02,CON02-E3,CON02-E1,NONE,Generic context does not entail the specific claim.
+CON02-R4,CON02,CON02-E4,CON02-E2,NONE,Instructional context does not entail the conflicting claim.
+CON03-R1,CON03,CON03-E1,CON03-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON03-R2,CON03,CON03-E2,CON03-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON03-R3,CON03,CON03-E3,CON03-E1,NONE,Generic context does not entail the specific claim.
+CON03-R4,CON03,CON03-E4,CON03-E2,NONE,Instructional context does not entail the conflicting claim.
+CON04-R1,CON04,CON04-E1,CON04-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON04-R2,CON04,CON04-E2,CON04-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON04-R3,CON04,CON04-E3,CON04-E1,NONE,Generic context does not entail the specific claim.
+CON04-R4,CON04,CON04-E4,CON04-E2,NONE,Instructional context does not entail the conflicting claim.
+CON05-R1,CON05,CON05-E1,CON05-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON05-R2,CON05,CON05-E2,CON05-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON05-R3,CON05,CON05-E3,CON05-E1,NONE,Generic context does not entail the specific claim.
+CON05-R4,CON05,CON05-E4,CON05-E2,NONE,Instructional context does not entail the conflicting claim.
+CON06-R1,CON06,CON06-E1,CON06-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON06-R2,CON06,CON06-E2,CON06-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON06-R3,CON06,CON06-E3,CON06-E1,NONE,Generic context does not entail the specific claim.
+CON06-R4,CON06,CON06-E4,CON06-E2,NONE,Instructional context does not entail the conflicting claim.
+CON07-R1,CON07,CON07-E1,CON07-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON07-R2,CON07,CON07-E2,CON07-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON07-R3,CON07,CON07-E3,CON07-E1,NONE,Generic context does not entail the specific claim.
+CON07-R4,CON07,CON07-E4,CON07-E2,NONE,Instructional context does not entail the conflicting claim.
+CON08-R1,CON08,CON08-E1,CON08-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON08-R2,CON08,CON08-E2,CON08-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON08-R3,CON08,CON08-E3,CON08-E1,NONE,Generic context does not entail the specific claim.
+CON08-R4,CON08,CON08-E4,CON08-E2,NONE,Instructional context does not entail the conflicting claim.
+CON09-R1,CON09,CON09-E1,CON09-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON09-R2,CON09,CON09-E2,CON09-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON09-R3,CON09,CON09-E3,CON09-E1,NONE,Generic context does not entail the specific claim.
+CON09-R4,CON09,CON09-E4,CON09-E2,NONE,Instructional context does not entail the conflicting claim.
+CON10-R1,CON10,CON10-E1,CON10-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON10-R2,CON10,CON10-E2,CON10-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON10-R3,CON10,CON10-E3,CON10-E1,NONE,Generic context does not entail the specific claim.
+CON10-R4,CON10,CON10-E4,CON10-E2,NONE,Instructional context does not entail the conflicting claim.
+CON11-R1,CON11,CON11-E1,CON11-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON11-R2,CON11,CON11-E2,CON11-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON11-R3,CON11,CON11-E3,CON11-E1,NONE,Generic context does not entail the specific claim.
+CON11-R4,CON11,CON11-E4,CON11-E2,NONE,Instructional context does not entail the conflicting claim.
+CON12-R1,CON12,CON12-E1,CON12-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON12-R2,CON12,CON12-E2,CON12-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON12-R3,CON12,CON12-E3,CON12-E1,NONE,Generic context does not entail the specific claim.
+CON12-R4,CON12,CON12-E4,CON12-E2,NONE,Instructional context does not entail the conflicting claim.
+CON13-R1,CON13,CON13-E1,CON13-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON13-R2,CON13,CON13-E2,CON13-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON13-R3,CON13,CON13-E3,CON13-E1,NONE,Generic context does not entail the specific claim.
+CON13-R4,CON13,CON13-E4,CON13-E2,NONE,Instructional context does not entail the conflicting claim.
+CON14-R1,CON14,CON14-E1,CON14-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON14-R2,CON14,CON14-E2,CON14-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON14-R3,CON14,CON14-E3,CON14-E1,NONE,Generic context does not entail the specific claim.
+CON14-R4,CON14,CON14-E4,CON14-E2,NONE,Instructional context does not entail the conflicting claim.
+CON15-R1,CON15,CON15-E1,CON15-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON15-R2,CON15,CON15-E2,CON15-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON15-R3,CON15,CON15-E3,CON15-E1,NONE,Generic context does not entail the specific claim.
+CON15-R4,CON15,CON15-E4,CON15-E2,NONE,Instructional context does not entail the conflicting claim.
+CON16-R1,CON16,CON16-E1,CON16-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON16-R2,CON16,CON16-E2,CON16-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON16-R3,CON16,CON16-E3,CON16-E1,NONE,Generic context does not entail the specific claim.
+CON16-R4,CON16,CON16-E4,CON16-E2,NONE,Instructional context does not entail the conflicting claim.
+CON17-R1,CON17,CON17-E1,CON17-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON17-R2,CON17,CON17-E2,CON17-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON17-R3,CON17,CON17-E3,CON17-E1,NONE,Generic context does not entail the specific claim.
+CON17-R4,CON17,CON17-E4,CON17-E2,NONE,Instructional context does not entail the conflicting claim.
+CON18-R1,CON18,CON18-E1,CON18-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON18-R2,CON18,CON18-E2,CON18-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON18-R3,CON18,CON18-E3,CON18-E1,NONE,Generic context does not entail the specific claim.
+CON18-R4,CON18,CON18-E4,CON18-E2,NONE,Instructional context does not entail the conflicting claim.
+CON19-R1,CON19,CON19-E1,CON19-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON19-R2,CON19,CON19-E2,CON19-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON19-R3,CON19,CON19-E3,CON19-E1,NONE,Generic context does not entail the specific claim.
+CON19-R4,CON19,CON19-E4,CON19-E2,NONE,Instructional context does not entail the conflicting claim.
+CON20-R1,CON20,CON20-E1,CON20-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON20-R2,CON20,CON20-E2,CON20-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON20-R3,CON20,CON20-E3,CON20-E1,NONE,Generic context does not entail the specific claim.
+CON20-R4,CON20,CON20-E4,CON20-E2,NONE,Instructional context does not entail the conflicting claim.
+CON21-R1,CON21,CON21-E1,CON21-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON21-R2,CON21,CON21-E2,CON21-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON21-R3,CON21,CON21-E3,CON21-E1,NONE,Generic context does not entail the specific claim.
+CON21-R4,CON21,CON21-E4,CON21-E2,NONE,Instructional context does not entail the conflicting claim.
+CON22-R1,CON22,CON22-E1,CON22-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON22-R2,CON22,CON22-E2,CON22-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON22-R3,CON22,CON22-E3,CON22-E1,NONE,Generic context does not entail the specific claim.
+CON22-R4,CON22,CON22-E4,CON22-E2,NONE,Instructional context does not entail the conflicting claim.
+CON23-R1,CON23,CON23-E1,CON23-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON23-R2,CON23,CON23-E2,CON23-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON23-R3,CON23,CON23-E3,CON23-E1,NONE,Generic context does not entail the specific claim.
+CON23-R4,CON23,CON23-E4,CON23-E2,NONE,Instructional context does not entail the conflicting claim.
+CON24-R1,CON24,CON24-E1,CON24-E2,CONTRADICTS,Both claims target the same slot and reference time with incompatible values.
+CON24-R2,CON24,CON24-E2,CON24-E1,CONTRADICTS,Contradiction is symmetric for these paired claims.
+CON24-R3,CON24,CON24-E3,CON24-E1,NONE,Generic context does not entail the specific claim.
+CON24-R4,CON24,CON24-E4,CON24-E2,NONE,Instructional context does not entail the conflicting claim.
+CTRL01-R1,CTRL01,CTRL01-E3,CTRL01-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL01-R2,CTRL01,CTRL01-E3,CTRL01-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL01-R3,CTRL01,CTRL01-E4,CTRL01-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL01-R4,CTRL01,CTRL01-E1,CTRL01-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL02-R1,CTRL02,CTRL02-E3,CTRL02-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL02-R2,CTRL02,CTRL02-E3,CTRL02-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL02-R3,CTRL02,CTRL02-E4,CTRL02-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL02-R4,CTRL02,CTRL02-E1,CTRL02-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL03-R1,CTRL03,CTRL03-E3,CTRL03-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL03-R2,CTRL03,CTRL03-E3,CTRL03-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL03-R3,CTRL03,CTRL03-E4,CTRL03-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL03-R4,CTRL03,CTRL03-E1,CTRL03-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL04-R1,CTRL04,CTRL04-E3,CTRL04-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL04-R2,CTRL04,CTRL04-E3,CTRL04-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL04-R3,CTRL04,CTRL04-E4,CTRL04-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL04-R4,CTRL04,CTRL04-E1,CTRL04-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL05-R1,CTRL05,CTRL05-E3,CTRL05-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL05-R2,CTRL05,CTRL05-E3,CTRL05-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL05-R3,CTRL05,CTRL05-E4,CTRL05-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL05-R4,CTRL05,CTRL05-E1,CTRL05-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL06-R1,CTRL06,CTRL06-E3,CTRL06-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL06-R2,CTRL06,CTRL06-E3,CTRL06-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL06-R3,CTRL06,CTRL06-E4,CTRL06-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL06-R4,CTRL06,CTRL06-E1,CTRL06-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL07-R1,CTRL07,CTRL07-E3,CTRL07-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL07-R2,CTRL07,CTRL07-E3,CTRL07-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL07-R3,CTRL07,CTRL07-E4,CTRL07-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL07-R4,CTRL07,CTRL07-E1,CTRL07-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL08-R1,CTRL08,CTRL08-E3,CTRL08-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL08-R2,CTRL08,CTRL08-E3,CTRL08-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL08-R3,CTRL08,CTRL08-E4,CTRL08-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL08-R4,CTRL08,CTRL08-E1,CTRL08-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL09-R1,CTRL09,CTRL09-E3,CTRL09-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL09-R2,CTRL09,CTRL09-E3,CTRL09-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL09-R3,CTRL09,CTRL09-E4,CTRL09-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL09-R4,CTRL09,CTRL09-E1,CTRL09-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL10-R1,CTRL10,CTRL10-E3,CTRL10-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL10-R2,CTRL10,CTRL10-E3,CTRL10-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL10-R3,CTRL10,CTRL10-E4,CTRL10-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL10-R4,CTRL10,CTRL10-E1,CTRL10-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL11-R1,CTRL11,CTRL11-E3,CTRL11-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL11-R2,CTRL11,CTRL11-E3,CTRL11-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL11-R3,CTRL11,CTRL11-E4,CTRL11-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL11-R4,CTRL11,CTRL11-E1,CTRL11-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL12-R1,CTRL12,CTRL12-E3,CTRL12-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL12-R2,CTRL12,CTRL12-E3,CTRL12-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL12-R3,CTRL12,CTRL12-E4,CTRL12-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL12-R4,CTRL12,CTRL12-E1,CTRL12-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL13-R1,CTRL13,CTRL13-E3,CTRL13-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL13-R2,CTRL13,CTRL13-E3,CTRL13-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL13-R3,CTRL13,CTRL13-E4,CTRL13-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL13-R4,CTRL13,CTRL13-E1,CTRL13-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL14-R1,CTRL14,CTRL14-E3,CTRL14-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL14-R2,CTRL14,CTRL14-E3,CTRL14-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL14-R3,CTRL14,CTRL14-E4,CTRL14-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL14-R4,CTRL14,CTRL14-E1,CTRL14-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL15-R1,CTRL15,CTRL15-E3,CTRL15-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL15-R2,CTRL15,CTRL15-E3,CTRL15-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL15-R3,CTRL15,CTRL15-E4,CTRL15-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL15-R4,CTRL15,CTRL15-E1,CTRL15-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL16-R1,CTRL16,CTRL16-E3,CTRL16-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL16-R2,CTRL16,CTRL16-E3,CTRL16-E2,SUPPORTS,The first transition passage explicitly establishes the middle state.
+CTRL16-R3,CTRL16,CTRL16-E4,CTRL16-E2,SUPERSEDES,The second transition explicitly establishes a later state that replaces the middle state.
+CTRL16-R4,CTRL16,CTRL16-E1,CTRL16-E4,NONE,"The earliest state does not directly entail, contradict, or itself supersede the later transition statement."
+CTRL17-R1,CTRL17,CTRL17-E3,CTRL17-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL17-R2,CTRL17,CTRL17-E3,CTRL17-E2,SUPPORTS,Transition passage supports the later state.
+CTRL17-R3,CTRL17,CTRL17-E4,CTRL17-E2,NONE,Generic context does not entail the later state.
+CTRL17-R4,CTRL17,CTRL17-E1,CTRL17-E4,NONE,Prior state does not entail generic context.
+CTRL18-R1,CTRL18,CTRL18-E3,CTRL18-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL18-R2,CTRL18,CTRL18-E3,CTRL18-E2,SUPPORTS,Transition passage supports the later state.
+CTRL18-R3,CTRL18,CTRL18-E4,CTRL18-E2,NONE,Generic context does not entail the later state.
+CTRL18-R4,CTRL18,CTRL18-E1,CTRL18-E4,NONE,Prior state does not entail generic context.
+CTRL19-R1,CTRL19,CTRL19-E3,CTRL19-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL19-R2,CTRL19,CTRL19-E3,CTRL19-E2,SUPPORTS,Transition passage supports the later state.
+CTRL19-R3,CTRL19,CTRL19-E4,CTRL19-E2,NONE,Generic context does not entail the later state.
+CTRL19-R4,CTRL19,CTRL19-E1,CTRL19-E4,NONE,Prior state does not entail generic context.
+CTRL20-R1,CTRL20,CTRL20-E3,CTRL20-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL20-R2,CTRL20,CTRL20-E3,CTRL20-E2,SUPPORTS,Transition passage supports the later state.
+CTRL20-R3,CTRL20,CTRL20-E4,CTRL20-E2,NONE,Generic context does not entail the later state.
+CTRL20-R4,CTRL20,CTRL20-E1,CTRL20-E4,NONE,Prior state does not entail generic context.
+CTRL21-R1,CTRL21,CTRL21-E3,CTRL21-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL21-R2,CTRL21,CTRL21-E3,CTRL21-E2,SUPPORTS,Transition passage supports the later state.
+CTRL21-R3,CTRL21,CTRL21-E4,CTRL21-E2,NONE,Generic context does not entail the later state.
+CTRL21-R4,CTRL21,CTRL21-E1,CTRL21-E4,NONE,Prior state does not entail generic context.
+CTRL22-R1,CTRL22,CTRL22-E3,CTRL22-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL22-R2,CTRL22,CTRL22-E3,CTRL22-E2,SUPPORTS,Transition passage supports the later state.
+CTRL22-R3,CTRL22,CTRL22-E4,CTRL22-E2,NONE,Generic context does not entail the later state.
+CTRL22-R4,CTRL22,CTRL22-E1,CTRL22-E4,NONE,Prior state does not entail generic context.
+CTRL23-R1,CTRL23,CTRL23-E3,CTRL23-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL23-R2,CTRL23,CTRL23-E3,CTRL23-E2,SUPPORTS,Transition passage supports the later state.
+CTRL23-R3,CTRL23,CTRL23-E4,CTRL23-E2,NONE,Generic context does not entail the later state.
+CTRL23-R4,CTRL23,CTRL23-E1,CTRL23-E4,NONE,Prior state does not entail generic context.
+CTRL24-R1,CTRL24,CTRL24-E3,CTRL24-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL24-R2,CTRL24,CTRL24-E3,CTRL24-E2,SUPPORTS,Transition passage supports the later state.
+CTRL24-R3,CTRL24,CTRL24-E4,CTRL24-E2,NONE,Generic context does not entail the later state.
+CTRL24-R4,CTRL24,CTRL24-E1,CTRL24-E4,NONE,Prior state does not entail generic context.
+CTRL25-R1,CTRL25,CTRL25-E3,CTRL25-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL25-R2,CTRL25,CTRL25-E3,CTRL25-E2,SUPPORTS,Transition passage supports the later state.
+CTRL25-R3,CTRL25,CTRL25-E4,CTRL25-E2,NONE,Generic context does not entail the later state.
+CTRL25-R4,CTRL25,CTRL25-E1,CTRL25-E4,NONE,Prior state does not entail generic context.
+CTRL26-R1,CTRL26,CTRL26-E3,CTRL26-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL26-R2,CTRL26,CTRL26-E3,CTRL26-E2,SUPPORTS,Transition passage supports the later state.
+CTRL26-R3,CTRL26,CTRL26-E4,CTRL26-E2,NONE,Generic context does not entail the later state.
+CTRL26-R4,CTRL26,CTRL26-E1,CTRL26-E4,NONE,Prior state does not entail generic context.
+CTRL27-R1,CTRL27,CTRL27-E3,CTRL27-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL27-R2,CTRL27,CTRL27-E3,CTRL27-E2,SUPPORTS,Transition passage supports the later state.
+CTRL27-R3,CTRL27,CTRL27-E4,CTRL27-E2,NONE,Generic context does not entail the later state.
+CTRL27-R4,CTRL27,CTRL27-E1,CTRL27-E4,NONE,Prior state does not entail generic context.
+CTRL28-R1,CTRL28,CTRL28-E3,CTRL28-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL28-R2,CTRL28,CTRL28-E3,CTRL28-E2,SUPPORTS,Transition passage supports the later state.
+CTRL28-R3,CTRL28,CTRL28-E4,CTRL28-E2,NONE,Generic context does not entail the later state.
+CTRL28-R4,CTRL28,CTRL28-E1,CTRL28-E4,NONE,Prior state does not entail generic context.
+CTRL29-R1,CTRL29,CTRL29-E3,CTRL29-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL29-R2,CTRL29,CTRL29-E3,CTRL29-E2,SUPPORTS,Transition passage supports the later state.
+CTRL29-R3,CTRL29,CTRL29-E4,CTRL29-E2,NONE,Generic context does not entail the later state.
+CTRL29-R4,CTRL29,CTRL29-E1,CTRL29-E4,NONE,Prior state does not entail generic context.
+CTRL30-R1,CTRL30,CTRL30-E3,CTRL30-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL30-R2,CTRL30,CTRL30-E3,CTRL30-E2,SUPPORTS,Transition passage supports the later state.
+CTRL30-R3,CTRL30,CTRL30-E4,CTRL30-E2,NONE,Generic context does not entail the later state.
+CTRL30-R4,CTRL30,CTRL30-E1,CTRL30-E4,NONE,Prior state does not entail generic context.
+CTRL31-R1,CTRL31,CTRL31-E3,CTRL31-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL31-R2,CTRL31,CTRL31-E3,CTRL31-E2,SUPPORTS,Transition passage supports the later state.
+CTRL31-R3,CTRL31,CTRL31-E4,CTRL31-E2,NONE,Generic context does not entail the later state.
+CTRL31-R4,CTRL31,CTRL31-E1,CTRL31-E4,NONE,Prior state does not entail generic context.
+CTRL32-R1,CTRL32,CTRL32-E3,CTRL32-E1,SUPERSEDES,Round-3 aligned: the source explicitly states a predecessor-to-successor transition and therefore supersedes the predecessor/old-state passage.
+CTRL32-R2,CTRL32,CTRL32-E3,CTRL32-E2,SUPPORTS,Transition passage supports the later state.
+CTRL32-R3,CTRL32,CTRL32-E4,CTRL32-E2,NONE,Generic context does not entail the later state.
+CTRL32-R4,CTRL32,CTRL32-E1,CTRL32-E4,NONE,Prior state does not entail generic context.

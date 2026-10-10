@@ -1,63 +1,29 @@
-# Dataset Card
+# Dataset Card — AraVISTA-Bench v1.1
 
-## Dataset name
-AraVISTA-Bench v1.1
+## Purpose
+Controlled diagnostic evaluation of temporal evidence validity and selective behavior in Arabic RAG.
 
-## Task
-Controlled evaluation of temporal evidence validity, evidence relations, query-conditioned
-evidence states, reranking, and selective actions in Arabic retrieval-augmented generation.
-
-## Languages
-Arabic (MSA and controlled Levantine, Egyptian, and Gulf variants). Some source metadata and
-transition cues may include English.
-
-## Unit of analysis
-The benchmark includes query instances, candidate evidence passages, directed pairwise evidence
-relations, query-conditioned evidence-state labels, gold actions, acceptable evidence sets, and
-gold answers for answerable cases.
-
-## Relation ontology
-- SUPPORTS
-- CONTRADICTS
-- SUPERSEDES
-- NONE
-
-## Query-conditioned evidence-state ontology
-- ACTIVE_SUPPORT
-- HISTORICAL_SUPPORT
-- SUPERSEDED
-- CO_TEMPORAL_CONFLICT
-- INSUFFICIENT
-
-## Action ontology
-- ANSWER
-- ANSWER_WITH_UPDATE
-- CLARIFY
-- ABSTAIN_CONFLICT
-- ABSTAIN_INSUFFICIENT
+## Language
+Arabic, including controlled Modern Standard Arabic, Levantine, Egyptian, and Gulf variants.
 
 ## Construction
-The benchmark was derived from temporally ordered source chains and controlled transformations.
-Gold answers, acceptable evidence sets, pairwise relation labels, and QCES labels are
-construction-derived from the known source-chain structure and intended temporal configuration.
+Instances were built from temporally ordered official-source chains and controlled benchmark
+transformations. Gold answers, acceptable evidence sets, pairwise relations, and QCES labels are
+construction-derived from known source-chain structure and the intended temporal scenario.
 
-## Human calibration
-- Action ontology: 25 calibration cases, two independent annotators, Cohen's kappa = 0.85.
-- Final relation ontology: 40 balanced cases, two independent annotators, raw agreement = 90%,
-  Cohen's kappa = 0.867, Gwet's AC1 approximately 0.867.
+## Important caveat
+This is a controlled diagnostic benchmark, not a representative sample of open-web Arabic RAG
+traffic or an estimate of deployment performance.
 
 ## Known limitations
-- Controlled diagnostic benchmark rather than a sample of open-web Arabic traffic.
-- Construction and initial labeling were AI-assisted.
-- Full independent human reannotation of all benchmark labels was not performed.
-- Historical validity near transition boundaries remains the principal failure mode.
-- The relation module includes manually specified transition/replacement cues.
-- Only one language family is evaluated.
-- Free-form answer generation and citation faithfulness are not evaluated.
+- AI-assisted construction and initial labeling.
+- No independent manual annotation of every query-evidence instance.
+- Historical validity near transition boundaries remains difficult.
+- Transition/replacement reasoning partly uses manually specified cues.
+- Limited retrieval/model scale.
+- No free-form generation or citation-faithfulness evaluation in the frozen experiment.
 
-## Intended use
-Research on temporal evidence reasoning, selective RAG, Arabic NLP, evidence-state modeling,
-and controlled diagnostic evaluation.
-
-## Out-of-scope use
-The aggregate benchmark score should not be treated as an estimate of deployment performance.
+## Ethical/privacy status
+The released benchmark does not contain private participant records. Source grounding is through
+publicly accessible official institutional webpages and dated official records. Human calibrators
+are not identified in the public data files.

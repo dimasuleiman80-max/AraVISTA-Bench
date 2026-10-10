@@ -1,37 +1,45 @@
 # Data Dictionary
 
-## `data/queries.csv`
-- `query_id`: stable unique query identifier.
+## data/queries.csv
+Original columns retained from `benchmark_240_v1.1.csv`:
+- `query_id`: stable query identifier.
+- `scenario_id`: evidence-pack/scenario identifier.
 - `family`: benchmark challenge family.
-- `group_id`: temporal twin, calendar pair, or dialect-intent group identifier when applicable.
-- `split`: `HELDOUT_NEW_CHAIN` or `CALENDAR_CHALLENGE`.
-- `query_ar`: Arabic query text.
-- `dialect`: MSA / Levantine / Egyptian / Gulf / NA.
-- `temporal_reference`: resolved query time.
-- `temporal_query_type`: current / historical / ambiguous / future / other.
-- `gold_action`: one of the five AraVISTA actions.
-- `gold_answer`: construction-derived answer for answerable cases.
-- `acceptable_evidence_ids`: semicolon-separated acceptable evidence IDs.
-
-## `data/evidence.csv`
-- `evidence_id`: stable unique evidence identifier.
+- `benchmark_split`: `HELDOUT_NEW_CHAIN` or `CALENDAR_CHALLENGE`.
 - `chain_id`: temporal source-chain identifier.
-- `source_org`: source organization.
-- `source_title`: webpage/document title.
-- `source_url`: original public URL.
-- `source_date`: dated record/publication/update date.
-- `evidence_text_or_release_note`: full text only if redistribution is permitted; otherwise a release note.
-- `text_redistribution_status`: e.g., `included`, `metadata_only`, `permission_required`.
-- `content_sha256`: optional checksum for reproducibility.
+- `query_text`: Arabic query text.
+- `reference_surface`: temporal wording in the query.
+- `normalized_reference_time`: resolved reference time.
+- `dialect`: controlled Arabic variety where applicable.
+- `calendar_surface`: calendar realization where applicable.
+- `gold_answer`: construction-derived answer for answerable cases.
+- `gold_action`: target selective action.
+- `gold_evidence_ids`: semicolon-separated acceptable evidence IDs.
+- `pair_group_id`: matched temporal/calendar/dialect group identifier.
+- `expected_relation`: scenario-level expected relation where applicable.
+- `calendar_gold_type`: calendar-equivalence metadata.
+- `notes`: construction notes.
+- `benchmark_version`: benchmark version.
 
-## `data/qces_labels.csv`
-One row per query-evidence instance.
+## data/evidence.csv
+Original columns retained from `evidence_packs_v1.1.csv`:
+- `evidence_id`, `scenario_id`, `chain_id`
+- `evidence_text`: source-grounded paraphrase or controlled benchmark text.
+- `candidate_answer`
+- `source_url`, `source_date`
+- `provenance_type`
+- `forced_rank`, `forced_similarity`, `visible_control_flag`
 
-## `data/pairwise_relations.csv`
-One row per distinct directed gold evidence pair.
+## data/qces_labels.csv
+- `query_id`, `evidence_id`, `qces_state`, `is_gold_evidence`, `rationale`
 
-## `data/splits.csv`
-Leakage-control and split assignment information.
+## data/pairwise_relations.csv
+- `relation_id`, `scenario_id`
+- `source_evidence_id`, `target_evidence_id`
+- `gold_relation`, `gold_rationale`
+
+## data/splits.csv
+Frozen query/scenario/family/split/chain manifest.
 
 ## Prediction files
-One row per query-candidate evidence item from the frozen run.
+The released prediction files are the direct outputs of the implementation-aligned frozen v1.1 run.
