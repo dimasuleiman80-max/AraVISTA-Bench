@@ -125,5 +125,9 @@ rights and terms.
 
 ## Citation
 
-See `CITATION.cff`. After the Zenodo record is published, add the dataset DOI to both
-`CITATION.cff` and the manuscript Data Availability Statement.
+Zenodo DOI: **10.5281/zenodo.23277316**
+
+Persistent link: https://doi.org/10.5281/zenodo.23277316
+
+See `CITATION.cff` for citation metadata. The DOI is reserved and becomes registered
+when the Zenodo record is published.
