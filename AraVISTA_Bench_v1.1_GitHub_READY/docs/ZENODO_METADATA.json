@@ -1,0 +1,39 @@
+{
+  "title": "AraVISTA-Bench v1.1: Evidence-State Reasoning Benchmark for Selective Arabic RAG",
+  "upload_type": "dataset",
+  "description": "AraVISTA-Bench v1.1 is a controlled Arabic benchmark for temporal evidence validity, directed evidence relations, query-conditioned evidence states, state-aware reranking, and selective actions in retrieval-augmented generation. The release contains 240 Arabic queries, 592 evidence passages, 960 QCES labels, 592 directed pairwise relation labels, frozen BM25/Dense-E5 predictions, and the implementation-aligned v1.1 notebook.",
+  "creators": [
+    {
+      "name": "Suleiman, Dima",
+      "affiliation": "The University of Jordan"
+    },
+    {
+      "name": "Obiedat, Ruba",
+      "affiliation": "The University of Jordan"
+    },
+    {
+      "name": "Al-Zain, Yazan",
+      "affiliation": "The University of Jordan"
+    }
+  ],
+  "version": "1.1",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Arabic NLP",
+    "retrieval-augmented generation",
+    "temporal reasoning",
+    "evidence validity",
+    "selective RAG",
+    "abstention",
+    "stale evidence",
+    "benchmark"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dimasuleiman80-max/AraVISTA-Bench",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "The CC BY 4.0 license applies to original AraVISTA benchmark content and annotations. Linked official webpages remain third-party materials subject to their original terms."
+}

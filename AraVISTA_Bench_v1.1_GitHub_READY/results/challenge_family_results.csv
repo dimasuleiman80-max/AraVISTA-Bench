@@ -1,0 +1,7 @@
+﻿family,metric,estimate_pct,ci95_lower_pct,ci95_upper_pct,bootstrap_units
+Temporal counterfactual,Answer accuracy,60.42,54.17,68.75,24
+Calendar equivalence,Answer accuracy,67.5,52.5,82.5,20
+Dialect equivalence,Answer accuracy,100.0,100.0,100.0,16
+Stale-evidence trap,Answer accuracy,87.5,75.0,96.88,32
+Co-temporal conflict,Action accuracy,83.33,66.67,95.83,24
+Control / insufficient,Action accuracy,100.0,100.0,100.0,32

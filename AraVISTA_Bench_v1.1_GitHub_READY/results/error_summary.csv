@@ -1,0 +1,7 @@
+﻿error_type,family,count,reported_interpretation
+answer,Temporal counterfactual,19,All observed on historical side of temporal twins
+answer,Calendar equivalence,13,10 wrong-side historical support; 3 insufficient
+answer,Stale-evidence trap,4,Correct SUPERSEDES edge but transition passage below semantic gate
+action,Calendar equivalence,3,Abstention when gold action is answer
+action,Co-temporal conflict,4,Answer instead of ABSTAIN_CONFLICT
+action,Stale-evidence trap,4,ANSWER instead of ANSWER_WITH_UPDATE

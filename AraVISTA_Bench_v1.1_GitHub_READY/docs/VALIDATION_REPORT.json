@@ -1,0 +1,46 @@
+{
+  "queries_rows": 240,
+  "queries_unique_ids": 240,
+  "evidence_rows": 592,
+  "evidence_unique_ids": 592,
+  "qces_rows": 960,
+  "qces_unique_query_evidence_pairs": 960,
+  "relation_rows": 592,
+  "relation_unique_ids": 592,
+  "split_rows": 240,
+  "split_counts": {
+    "HELDOUT_NEW_CHAIN": 200,
+    "CALENDAR_CHALLENGE": 40
+  },
+  "family_counts": {
+    "TEMPORAL_COUNTERFACTUAL": 48,
+    "CALENDAR_EQUIVALENT": 40,
+    "DIALECT_TEMPORAL_EQUIVALENT": 64,
+    "STALE_EVIDENCE_TRAP": 32,
+    "CONTROLLED_CO_TEMPORAL_CONFLICT": 24,
+    "CONTROL_OR_INSUFFICIENT": 32
+  },
+  "qces_state_counts": {
+    "HISTORICAL_SUPPORT": 152,
+    "INSUFFICIENT": 408,
+    "SUPERSEDED": 160,
+    "ACTIVE_SUPPORT": 192,
+    "CO_TEMPORAL_CONFLICT": 48
+  },
+  "relation_label_counts": {
+    "SUPERSEDES": 120,
+    "SUPPORTS": 124,
+    "NONE": 268,
+    "CONTRADICTS": 80
+  },
+  "e5_prediction_rows": 240,
+  "bm25_prediction_rows": 240,
+  "pairwise_prediction_rows": 1776,
+  "qces_e5_prediction_rows": 960,
+  "qces_bm25_prediction_rows": 960,
+  "missing_qces_query_refs": 0,
+  "missing_qces_evidence_refs": 0,
+  "missing_relation_source_refs": 0,
+  "missing_relation_target_refs": 0,
+  "all_core_validation_checks_passed": true
+}
