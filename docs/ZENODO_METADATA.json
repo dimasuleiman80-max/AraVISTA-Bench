@@ -1,7 +1,7 @@
 {
-  "title": "AraVISTA-Bench v1.1: Evidence-State Reasoning Benchmark for Selective Arabic RAG",
+  "title": "AraVISTA-Bench v1.1.1: Evidence-State Reasoning Benchmark for Selective Arabic RAG",
   "upload_type": "dataset",
-  "description": "AraVISTA-Bench v1.1 is a controlled Arabic benchmark for temporal evidence validity, directed evidence relations, query-conditioned evidence states, state-aware reranking, and selective actions in retrieval-augmented generation. The release contains 240 Arabic queries, 592 evidence passages, 960 QCES labels, 592 directed pairwise relation labels, frozen BM25/Dense-E5 predictions, and the implementation-aligned v1.1 notebook.",
+  "description": "AraVISTA-Bench v1.1.1 is the post-review archival release of the controlled Arabic benchmark for temporal evidence validity, directed evidence relations, query-conditioned evidence states, state-aware reranking, and selective actions in retrieval-augmented generation. The core v1.1 benchmark, labels, frozen BM25/Dense-E5 predictions, thresholds, and frozen reranking configuration are unchanged. Version 1.1.1 adds reviewer-requested supplementary diagnostics, including the Direct Relation Policy comparator, temporal-date heuristic, reranking-weight and state/graph sensitivity analyses, transition-cue dropout, blind benchmark-label audit summaries, and source-diversity/provenance summaries.",
   "creators": [
     {
       "name": "Suleiman, Dima",
@@ -16,7 +16,7 @@
       "affiliation": "The University of Jordan"
     }
   ],
-  "version": "1.1",
+  "version": "1.1.1",
   "license": "cc-by-4.0",
   "keywords": [
     "Arabic NLP",
@@ -35,5 +35,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "The CC BY 4.0 license applies to original AraVISTA benchmark content and annotations. Linked official webpages remain third-party materials subject to their original terms."
+  "notes": "Zenodo version DOI: 10.5281/zenodo.23703633. Concept DOI for all versions: 10.5281/zenodo.23277315. The CC BY 4.0 license applies to original AraVISTA benchmark content and annotations. Linked official webpages remain third-party materials subject to their original terms."
 }
