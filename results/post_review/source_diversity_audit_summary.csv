@@ -1,0 +1,4 @@
+split,queries,scenarios,chains,evidence_passages,unique_urls,unique_domains,jurisdictions
+FULL,240,148,17,592,34,20,7
+HELDOUT_NEW_CHAIN,200,128,13,512,27,17,7
+CALENDAR_CHALLENGE,40,20,6,80,10,7,2
