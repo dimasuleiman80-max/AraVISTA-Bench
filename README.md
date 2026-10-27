@@ -1,10 +1,10 @@
-# AraVISTA-Bench v1.1
+# AraVISTA-Bench v1.1.1
 
 **Evidence-State Reasoning for Selective Arabic Retrieval-Augmented Generation**
 
-AraVISTA-Bench v1.1 is a controlled Arabic benchmark for evaluating temporal evidence
+AraVISTA-Bench v1.1.1 is the post-review archival release of the controlled Arabic benchmark for evaluating temporal evidence
 validity, directed relations among retrieved passages, query-conditioned evidence states,
-state-aware reranking, and selective system actions in retrieval-augmented generation.
+state-aware reranking, and selective system actions in retrieval-augmented generation. The core benchmark and frozen v1.1 predictions/configuration are unchanged; v1.1.1 adds supplementary post-review diagnostics.
 
 ## Authors
 
@@ -131,8 +131,10 @@ rights and terms.
 
 ## Citation
 
-Zenodo DOI: **10.5281/zenodo.23277316**
+Latest archived release (v1.1.1): **10.5281/zenodo.23703633**
 
-Persistent link: https://doi.org/10.5281/zenodo.23277316
+Persistent link: https://doi.org/10.5281/zenodo.23703633
 
-See `CITATION.cff` for citation metadata and the persistent Zenodo DOI used in the manuscript.
+Concept DOI for all versions: **10.5281/zenodo.23277315**
+
+See `CITATION.cff` for citation metadata. The v1.1.1 DOI identifies the exact archival release containing the post-review supplementary diagnostics.
