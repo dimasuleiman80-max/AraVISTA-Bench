@@ -61,6 +61,12 @@ state-aware reranking, and selective system actions in retrieval-augmented gener
 - `provenance/` — source URL registry.
 - `docs/` — dataset card, data dictionary, implementation notes, and validation report.
 
+## Post-review supplementary diagnostics
+
+Reviewer-requested diagnostic analyses are released under `results/post_review/`. These include the Direct Relation Policy (DRP) comparator summaries, temporal-date heuristic summary, reranking-weight and state/graph sensitivity analyses, transition-cue dropout, blind benchmark-label audit summaries, and reproducible source-diversity/provenance summaries.
+
+These additions are **post-review diagnostics**. They do not change the original AraVISTA-Bench v1.1 frozen benchmark labels, predictions, thresholds, or frozen reranking configuration. See `results/post_review/README.md` and `docs/DRP_COMPARATOR.md`.
+
 ## Data provenance
 
 The benchmark was derived from temporally ordered source chains assembled from publicly
@@ -129,5 +135,4 @@ Zenodo DOI: **10.5281/zenodo.23277316**
 
 Persistent link: https://doi.org/10.5281/zenodo.23277316
 
-See `CITATION.cff` for citation metadata. The DOI is reserved and becomes registered
-when the Zenodo record is published.
+See `CITATION.cff` for citation metadata and the persistent Zenodo DOI used in the manuscript.
