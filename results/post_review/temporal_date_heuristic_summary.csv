@@ -1,0 +1,2 @@
+system,overall_answer_accuracy,core_answer_accuracy,overall_evidence_top1,core_evidence_top1,ara_minus_heuristic_core_answer_diff,paired_bootstrap_ci_lo,paired_bootstrap_ci_hi,bootstrap_replicates
+Dense-E5 + Temporal Date Heuristic,0.842391304347826,0.8333333333333334,0.8605769230769231,0.8571428571428571,0.00694444444444442,-0.03497119078104997,0.047627201565557664,10000
