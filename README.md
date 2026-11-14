@@ -61,6 +61,14 @@ state-aware reranking, and selective system actions in retrieval-augmented gener
 - `provenance/` — source URL registry.
 - `docs/` — dataset card, data dictionary, implementation notes, and validation report.
 
+## Independent external ArTyDi-QA validation
+
+A post-review external validation on a fixed 200-case ArTyDi-QA sample is available under `external_artydi/`. The released package contains the frozen human reference labels linked by public ArTyDi-QA example ID, inter-annotator agreement summary, the restricted transfer-evaluation protocol, a reproduction notebook, predictions, aggregate metrics, paired tests, and the run manifest.
+
+This experiment is reported separately from the original AraVISTA-Bench v1.1 frozen evaluation. Because ArTyDi-QA provides a single passage per question, it does not evaluate the full multi-passage QCES, supersession, or conflict pipeline.
+
+Key external results: E5-only achieved 85.64% accuracy (Macro-F1 0.833), while AraVISTA-Restricted achieved 81.54% accuracy (Macro-F1 0.799); the paired difference was not significant after Holm correction (adjusted McNemar p = 0.115).
+
 ## Post-review supplementary diagnostics
 
 Reviewer-requested diagnostic analyses are released under `results/post_review/`. These include the Direct Relation Policy (DRP) comparator summaries, temporal-date heuristic summary, reranking-weight and state/graph sensitivity analyses, transition-cue dropout, blind benchmark-label audit summaries, and reproducible source-diversity/provenance summaries.
